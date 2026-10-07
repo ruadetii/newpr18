@@ -9,12 +9,12 @@
       Title="Main">
 
     <Grid Background="#FF0C73FF">
-        <Label Content="Поиск дешёвых авиабилетов" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="16" FontWeight="Bold" Foreground="White" Margin="280,20,280,168" Width="242"/>
-        <Label Content="Лучший способ купить авиабилеты дёшево" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="12" Foreground="White" Margin="280,90,280,168" Width="252"/>
-        <Label Content="Откуда:" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="12" Foreground="White" Margin="274,120,274,128" Width="252"/>
-        <TextBox x:Name="from" Width="252" Height="25" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="274,151,274,100"/>
-        <Label Content="Куда:" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="12" Foreground="White" Margin="274,170,274,71" Width="252"/>
-        <TextBox x:Name="to" Width="252" Height="25" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="274,205,274,50"/>
+        <Label Content="Поиск дешёвых авиабилетов" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="16" FontWeight="Bold" Foreground="White" Margin="270,20,270,168" Width="242"/>
+        <Label Content="Лучший способ купить авиабилеты дёшево" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="12" Foreground="White" Margin="270,90,270,168" Width="255"/>
+        <Label Content="Откуда:" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="12" Foreground="White" Margin="274,120,274,128" Width="245"/>
+        <TextBox x:Name="from" Width="245" Height="25" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="274,151,274,100"/>
+        <Label Content="Куда:" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="12" Foreground="White" Margin="274,170,274,71" Width="245"/>
+        <TextBox x:Name="to" Width="245" Height="25" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="274,205,274,50"/>
         <Button Click="search" VerticalAlignment="Center" HorizontalAlignment="Center" Width="100" Height="25" Content="Найти" Background="#FF4000" BorderBrush="#FF4000" Foreground="White" Margin="300,255,150,0"/>
     </Grid>
 </Page>

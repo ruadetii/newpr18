@@ -25,6 +25,7 @@ namespace Airlines_Radosteva
         {
             InitializeComponent();
             init = this;
+            OpenPage(new Pages.Main());
         }
 
         public void OpenPage(Page page) 
