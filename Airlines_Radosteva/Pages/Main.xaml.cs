@@ -24,5 +24,10 @@ namespace Airlines_Radosteva.Pages
         {
             InitializeComponent();
         }
+
+        private void search(object sender, RoutedEventArgs e)
+        {
+            MainWindow.init.OpenPage(new Pages.Ticket(from.Text, to.Text));
+        }
     }
 }
